@@ -1,7 +1,7 @@
 # Titanic Passenger Survival Prediction System
 
 **Student:** Mubashir Ali  
-**Registration No.:** faa24-bse-140  
+**Registration No.:** fa24-bse-140  
 **Course:** AIC354 Machine Learning Fundamentals
 
 ## Run the app
