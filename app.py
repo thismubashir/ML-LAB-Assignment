@@ -54,7 +54,7 @@ encoders = build_label_encoders()
 # ---------------------------------------------------------------------------
 
 st.title("🚢 Titanic Passenger Survival Predictor")
-st.caption("Mubashir Ali | faa24-bse-140")
+st.caption("Mubashir Ali | fa24-bse-140")
 st.markdown(
     """
     This is a teaching demo built from the **Titanic Passenger Survival Prediction**
