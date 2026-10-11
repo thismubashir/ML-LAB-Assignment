@@ -27,3 +27,12 @@ Create a separate GitHub repository named `ML-LAB-Assignment`. Upload the conten
 Titanic teaching source: https://github.com/haqnawaz99/ml-teaching-notebooks
 
 Dataset: supplied 100-row simplified Titanic teaching dataset.
+
+## Assignment projects
+
+| Project | Notebook | Streamlit main file |
+| --- | --- | --- |
+| Titanic | `Titanic_Passenger_Survival_Recommended.ipynb` | `app.py` |
+| Heart Disease | `heart_disease_project/Heart_Disease_Prediction.ipynb` | `heart_disease_project/app.py` |
+
+Deploy each app separately from this repository, using branch `main` and Python 3.12. Add each verified live URL to the first cell of its corresponding notebook after deployment.
