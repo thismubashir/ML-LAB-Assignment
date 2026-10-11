@@ -1,29 +1,33 @@
-# Heart Disease Prediction System
+# Heart Disease Prediction
 
-**Student:** Mubashir Ali  
-**Registration No.:** fa24-bse-140  
-**Course:** AIC354 Machine Learning Fundamentals
-
-## Run the app
-
-```bash
-python3 -m pip install -r requirements.txt
-python3 -m streamlit run app.py
-```
+**Name:** Mubashir Ali  
+**Registration No.:** Fa24-bse-140
 
 ## Run the notebook
 
+Keep the files in this folder together.
+
 ```bash
-python3 -m pip install -r requirements-notebook.txt
+python -m pip install -r requirements-notebook.txt
 jupyter notebook Heart_Disease_Prediction.ipynb
 ```
 
-## Deploy
+## Run the Streamlit app
 
-This project is in `heart_disease_project/` inside `thismubashir/ML-LAB-Assignment`. On Streamlit Community Cloud select repository `thismubashir/ML-LAB-Assignment`, branch `main`, main file `heart_disease_project/app.py`, and Python 3.12 in Advanced settings. For local commands above, first open a terminal in this folder.
+```bash
+python -m pip install -r requirements.txt
+python -m streamlit run app.py
+```
 
-**Deployment status:** Pending. After deployment, add the verified live URL to the first notebook cell.
+The simple Python version is `heart_disease_prediction.py`. The notebook contains executed results and a confusion matrix.
 
-Titanic teaching source: https://github.com/haqnawaz99/ml-teaching-notebooks
+**GitHub:** [https://github.com/thismubashir/ML-LAB-Assignment](https://github.com/thismubashir/ML-LAB-Assignment)  
+**Branch:** main  
+**Main file:** `heart_disease_project/app.py`
 
-Dataset: UCI Heart Disease (Cleveland); only Sex, ChestPain, RestECG, and ExerciseAngina are model inputs. https://archive.ics.uci.edu/dataset/45/heart+disease
+## Streamlit Links
+
+| App | Streamlit link |
+| --- | --- |
+| Titanic | [Open app](https://ml-lab-assignment-gwnyxabzax8nwfaueusdeb.streamlit.app/) |
+| Heart Disease | [Open app](https://ml-lab-assignment-tbdhtsrxjgmpyfxc2vxktl.streamlit.app/) |

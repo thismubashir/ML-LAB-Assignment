@@ -1,38 +1,44 @@
-# Titanic Passenger Survival Prediction System
+# AIC354 Assignment 2 — Prediction Apps
 
-**Student:** Mubashir Ali  
-**Registration No.:** fa24-bse-140  
-**Course:** AIC354 Machine Learning Fundamentals
+**Name:** Mubashir Ali  
+**Registration No.:** Fa24-bse-140
 
-## Run the app
+The package contains two project folders with simple Python code, executed Jupyter notebooks, datasets, trained models and Streamlit apps.
+
+| Project | Package folder | GitHub notebook | Streamlit main file |
+| --- | --- | --- | --- |
+| Titanic | `titanic_deployment` | `Titanic_Passenger_Survival_Recommended.ipynb` | `app.py` |
+| Heart Disease | `heart_disease_project` | `heart_disease_project/Heart_Disease_Prediction.ipynb` | `heart_disease_project/app.py` |
+
+## Run locally
+
+Open a terminal in the relevant project folder.
 
 ```bash
-python3 -m pip install -r requirements.txt
-python3 -m streamlit run app.py
+python -m pip install -r requirements-notebook.txt
+jupyter notebook
 ```
 
-## Run the notebook
+To run its web app:
 
 ```bash
-python3 -m pip install -r requirements-notebook.txt
-jupyter notebook Titanic_Passenger_Survival_Recommended.ipynb
+python -m streamlit run app.py
 ```
 
-## Deploy
+Run notebook cells from top to bottom. The notebook regenerates its trained model and CSV result files. The extra prediction `.py` file contains the same simple code.
 
-Create a separate GitHub repository named `ML-LAB-Assignment`. Upload the contents of this folder directly to its root. On Streamlit Community Cloud select this repository, branch `main`, entrypoint `app.py`, and Python 3.12 in Advanced settings.
+## GitHub
 
-**Deployment status:** Pending. After deployment, add the verified live URL to the first notebook cell.
+[https://github.com/thismubashir/ML-LAB-Assignment](https://github.com/thismubashir/ML-LAB-Assignment)
 
-Titanic teaching source: https://github.com/haqnawaz99/ml-teaching-notebooks
+Titanic files are at the repository root. Heart Disease files are in `heart_disease_project/`. Both apps use branch `main` and Python 3.12.
 
-Dataset: supplied 100-row simplified Titanic teaching dataset.
+Titanic teaching source: https://github.com/haqnawaz99/ml-teaching-notebooks  
+Heart Disease dataset: https://archive.ics.uci.edu/dataset/45/heart+disease
 
-## Assignment projects
+## Streamlit Links
 
-| Project | Notebook | Streamlit main file |
-| --- | --- | --- |
-| Titanic | `Titanic_Passenger_Survival_Recommended.ipynb` | `app.py` |
-| Heart Disease | `heart_disease_project/Heart_Disease_Prediction.ipynb` | `heart_disease_project/app.py` |
-
-Deploy each app separately from this repository, using branch `main` and Python 3.12. Add each verified live URL to the first cell of its corresponding notebook after deployment.
+| App | Streamlit link |
+| --- | --- |
+| Titanic | [Open app](https://ml-lab-assignment-gwnyxabzax8nwfaueusdeb.streamlit.app/) |
+| Heart Disease | [Open app](https://ml-lab-assignment-tbdhtsrxjgmpyfxc2vxktl.streamlit.app/) |
